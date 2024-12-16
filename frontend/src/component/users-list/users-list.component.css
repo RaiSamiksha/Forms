@@ -1,0 +1,74 @@
+/* General container styling */
+.table-container {
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  input#mat-input-0{
+    padding-left: 2%;
+  }
+
+  
+  /* Filter input styling */
+  .filter-input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  /* span.mat-mdc-select-min-line.ng-tns-c1073613477-2.ng-star-inserted {
+    display: table;
+    margin: 0 auto;
+} */
+
+/* div#mat-select-value-0 {
+    padding-left: 44%;
+} */
+  
+  /* Header row styling */
+  .mat-header-row {
+    background-color: #1976d2; /* Primary color */
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  /* Cell styling */
+  .mat-cell, .mat-header-cell {
+    padding: 16px;
+    text-align: left;
+  }
+  
+  /* Row hover effect */
+  .mat-row:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Paginator styling */
+  .mat-paginator {
+    margin-top: 20px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .table-container {
+      padding: 10px;
+    }
+  
+    .filter-input {
+      margin-bottom: 15px;
+    }
+  
+    .mat-cell, .mat-header-cell {
+      padding: 12px;
+    }
+  }
+  

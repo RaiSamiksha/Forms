@@ -1,0 +1,31 @@
+
+1) npm install sequelize-cli mysql2 --save
+
+2) npx sequelize-cli init
+
+Created "config\config.json"
+Successfully created models folder at "C:\Users\samikshara\OneDrive - Kuoni Tumlare\Documents\dev\Angular\Forms\backend\models".
+Successfully created migrations folder at "C:\Users\samikshara\OneDrive - Kuoni Tumlare\Documents\dev\Angular\Forms\backend\migrations".
+
+3) npx sequelize-cli migration:generate --name create-users
+New migration was created at C:\Users\samikshara\OneDrive - Kuoni Tumlare\Documents\dev\Angular\Forms\backend\migrations\20241211044343-create-users.js .
+
+4) npx sequelize-cli db:migrate
+Loaded configuration file "config\config.json".
+Using environment "development".
+== 20241211044343-create-users: migrating =======
+== 20241211044343-create-users: migrated (0.034s)
+
+5) npx sequelize-cli seed:generate --name demo-user
+New seed was created at C:\Users\samikshara\OneDrive - Kuoni Tumlare\Documents\dev\Angular\Forms\backend\seeders\20241211045306-demo-user.js .
+
+6) npx sequelize-cli db:seed:all
+Loaded configuration file "config\config.json".
+Using environment "development".
+== 20241211045306-demo-user: migrating =======
+
+7) npx sequelize-cli db:seed:all
+Loaded configuration file "config\config.json".
+Using environment "development".
+== 20241211045306-demo-user: migrating =======
+== 20241211045306-demo-user: migrated (0.057s)

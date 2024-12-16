@@ -1,0 +1,29 @@
+div#main-user-form {
+    display: flex;
+    flex-direction: column;
+    background: darkgrey;
+    border-radius: 20px;
+    padding: 3rem;
+    margin: 0 auto; /* Center the form horizontally */
+    max-width: 80%; /* Ensure the form width adapts to screen size */
+    width: 100%; /* Allow flexibility */
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch; /* Ensure inputs take up full width */
+}
+input {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 1rem 0; /* Adjusted to avoid extra horizontal spacing */
+}
+
+button{
+    padding: 0.8rem;
+    margin: 0 42%;
+    border: none;
+    border-radius: 0.7rem;
+}

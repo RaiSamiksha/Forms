@@ -1,0 +1,17 @@
+<p>main works!</p>
+<div id="main-user-form">
+    <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+        <input type="text" id="name" formControlName="name" placeholder="Name">
+
+        <input type="email" id="email" formControlName="email" placeholder="Email">
+
+        <input type="date" id="date" formControlName="date" placeholder="Date">
+
+        <div>
+            <input type="address" id="address" formControlName="address" placeholder="Address">
+        </div>
+           
+        <button type="submit" [disabled]="myForm.invalid">Submit</button>
+      </form>
+    
+</div>
